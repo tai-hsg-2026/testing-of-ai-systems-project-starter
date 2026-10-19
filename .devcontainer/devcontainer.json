@@ -1,0 +1,21 @@
+{
+    "name": "tig",
+    "image": "dockercontainervm/model-based-tig:2026",
+    "remoteUser": "tai_user",
+    "updateRemoteUserUID": true,
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "charliermarsh.ruff",
+                "ms-python.python"
+            ],
+            "settings": {
+                "python.defaultInterpreterPath": "/opt/venv/bin/python"
+            }
+        }
+    },
+    "containerEnv": {
+        "DISPLAY": "tig",
+        "UV_PROJECT_ENVIRONMENT": "/opt/venv"
+    }
+}

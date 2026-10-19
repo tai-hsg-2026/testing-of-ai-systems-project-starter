@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# MNIST dataset (downloaded by torchvision)
+data/
+.pytest_cache
+
+results
+
+models
+*.pt
+*.npz
+*.png
+*.svg
